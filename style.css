@@ -1,0 +1,62 @@
+html {
+  margin: 0px;
+}
+
+body {
+    font-size: 15pt;
+    background-color: cyan;
+}
+
+.judul {
+  display: flexbox;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  border-bottom: 2px solid darkcyan;
+  border-radius: 3px;
+}
+
+.Text {
+  text-align: center;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+summary {
+  cursor: pointer;
+  border: 2px solid darkcyan;
+  background-color: darkcyan;
+  padding: 10px;
+  margin: 4px;
+  border-radius: 30px;
+  border-width: 2px;
+  
+}
+
+summary:hover {
+  background-color: lightcyan;
+  animation: pulse 1s infinite alternate;
+}
+
+.fol {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  border: 4px solid black;
+  border-radius: 40px;
+}
